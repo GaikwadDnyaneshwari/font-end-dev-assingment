@@ -1,0 +1,99 @@
+body{
+  
+  margin:0;
+  padding:10px;
+  height:100%;
+  width: 100%
+  font-size:medium;
+  background-image: url("/images/background.jpg")
+}
+.toolbar{
+  display: flex;
+}
+/* css properties for nav bar */
+.toolbar a{
+  float: left;
+  color:black;
+  background-color: gold;
+  border: 1px solid gold
+  margin 0 1%;
+  padding: 5px;
+  width: 250px;
+  height: 20px
+  text-align: center;
+  text-decoration: none;
+}
+.demo{
+  margin:1.5%
+  background-image: url("https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  
+ 
+}
+.taco1,.taco2{
+  padding: 1%;
+  display: inline-block;
+  position: relative;
+  top: 20vw;
+  left: 2%;
+  background-color: rgb(218, 165,32,0.85);
+}
+.taco2{
+  margin-top: 8px;
+}
+.price1{
+  background-color: yellow;
+  float: right;
+  padding: 4% 12%;
+  position: relative;
+  bottom: 36vw;
+  text-align: center;
+
+}
+.dish1{
+  font-size: 14px;
+}
+.price2{
+  background-color: yellow;
+  float: right;
+  display: inline
+  position: relative;
+  bottom: 36vw;
+  left:29%;
+  padding: 4% 12%;
+  margin-top: 1%
+}
+.tacos, .beer, .wine, .music{
+  cursor: pointer;
+  text-align: center;
+  width: 23.5vw;
+  
+}
+.beer,.wine, .music{
+  margin-left: 2%;
+}
+.tacos{
+  margin-left: 2%
+}
+.row,.row3{
+  display: flex;
+  
+}
+
+
+
+/* .column {
+        display: flex;
+    }
+
+    .t1 {
+        margin-right: 4%;
+    }
+
+    .W1 {
+        margin-left: 4%;
+    }
+
+    .M1 {
+        margin-left: 4%;
+ */

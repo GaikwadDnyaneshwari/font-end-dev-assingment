@@ -1,0 +1,150 @@
+nav {
+
+            float: right;
+            margin-top: -2.5%;
+            margin-right: 2.5%;
+        }
+
+        nav a {
+
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .date {
+            float: right;
+
+        }
+
+        .button {
+            background-color:#244d60;
+            color: white;
+            letter-spacing: 0.5;
+            border: radius 4px  #e7e7e7;
+            padding: 10px 20px;
+            text-align: center;
+            display: flex;
+            margin-left: 45%;
+
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+            display: flexbox;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+
+            font-family: arial;
+        }
+
+
+
+        .profile {
+            display: flex;
+            padding-bottom: 2%;
+            object-fit: cover;
+        }
+
+        .paragraph {
+            width: 40%;
+            padding-left: 15px;
+            margin-left: 25vw;
+            margin-top: 2vw;
+            float: left;
+            font-style: italic;
+        }
+
+        .profilecard {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 15%;
+            margin-left: 70%;
+            margin-top: 2%;
+
+        }
+        .row9a,.row10a{
+    display:grid;
+    margin-left:20%;
+}
+.row9b{
+    
+    position: relative;
+    left: 40%;
+    bottom: 40vh;
+}
+.time{
+    position:relative;
+    top: 6vw;
+}
+.row10{
+  margin-top:-18vw;
+    
+}
+.row10b{
+    position: relative;
+    left: 25%;
+    bottom: 25vh;
+}
+#width,#width2,#col2{
+margin-left: -20vw;
+position: relative;
+bottom: 20vh;
+}
+#button{
+    background-color: rgb(10, 143, 39);
+    width: 10%;
+    height: 5vh;
+    border-style: none;
+    color: white;
+}
+.col1{
+    position: relative;
+    left: 40vw;
+    bottom: 35vw;
+}
+.col2{
+    position: relative;
+  left: 50vw;
+bottom: 43vh;
+
+}
+#time1{
+    margin-top: 20vh;
+}
+.row13{
+    position: relative;
+    left: 25vw;
+}
+.row13a{
+    position: relative;
+    left: 50vw;
+    bottom: 15vh;
+
+}
+#div{
+    margin-top: -35vh;
+}
+.ragister{
+    margin-left: 20vw;
+}
+.col5{
+    position: relative;
+    left: 70vw;
+    bottom: 50vh;
+}
